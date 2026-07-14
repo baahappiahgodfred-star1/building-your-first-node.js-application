@@ -34,7 +34,7 @@ async function sendEmail() {
 
     const mailOptions = {
         from: process.env.SMTP_FROM || process.env.SMTP_USER || 'no-reply@example.com',
-        to: process.env.SMTP_TO || 'sylvestre@groupeisi.com',
+        to: process.env.SMTP_TO || 'baahappiahgodfred@gmail.com',
         subject: process.env.SMTP_SUBJECT || 'Hello from Node.js',
         text: process.env.SMTP_TEXT || 'Hello world?',
         html: process.env.SMTP_HTML || '<b>Hello world?</b>',
